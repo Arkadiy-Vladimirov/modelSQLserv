@@ -1,0 +1,1 @@
+UPDATE Students Age = Age + 1 WHERE ALL

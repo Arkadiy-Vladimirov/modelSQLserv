@@ -1,0 +1,2 @@
+INSERT INTO Students ( 'Sergey', 'Ivanov', 18, '145-45-45' )
+

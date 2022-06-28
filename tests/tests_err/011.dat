@@ -1,0 +1,1 @@
+SELECT * FROM Students WHERE Age OR 20

@@ -1,0 +1,2 @@
+SELECT SUM FROM Students_207 WHERE Surname LIKE '%ov'
+

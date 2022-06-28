@@ -1,0 +1,1 @@
+SELECT * FROM Students WHERE (Phone  > '17') OR  Age

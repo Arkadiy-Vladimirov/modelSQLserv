@@ -1,0 +1,30 @@
+# Makefile for Model_SQL_server project
+
+ModelSQLserver: maintst.o libsock.a libinterpreter.a libtableint.a  
+	g++ -Wall -std=c++11 -o ModelSQLserver maintst.o -L. -lsock -linterpreter -ltableint 
+
+maintst.o: maintst.cpp
+	g++ -Wall -std=c++11 -c -g maintst.cpp
+
+libsock.a: sock.o
+	ar cr libsock.a sock.o
+
+libtableint.a: tableint.o
+	ar cr libtableint.a tableint.o
+
+libinterpreter.a: interpreter.o
+	ar cr libinterpreter.a interpreter.o
+
+sock.o: sock.cpp
+	g++ -Wall -std=c++11 -c -g sock.cpp
+
+interpreter.o: interpreter.cpp
+	g++ -Wall -std=c++11 -c -g interpreter.cpp
+
+tableint.o: tableint.cpp
+	g++ -Wall -std=c++11 -c -g tableint.cpp
+
+clean:
+	rm -f *.o *.a  ModelSQLserver
+
+

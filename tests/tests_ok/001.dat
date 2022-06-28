@@ -1,0 +1,2 @@
+CREATE TABLE Students_207 (First_name TEXT(15), Surname TEXT(20), KR1 LONG, KR2 LONG, KR3 LONG, SUM LONG)
+

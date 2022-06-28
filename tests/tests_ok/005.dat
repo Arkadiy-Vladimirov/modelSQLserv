@@ -1,0 +1,2 @@
+UPDATE Students_207 SET SUM = KR1 + KR2 + KR3 WHERE ALL
+

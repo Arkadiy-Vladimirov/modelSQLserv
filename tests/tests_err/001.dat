@@ -1,0 +1,2 @@
+CREATE TABLE Students (First_name TEXT (10), Surname TEXT (15), Age LONG, Phone TEXT (9) )
+

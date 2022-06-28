@@ -1,0 +1,2 @@
+SELECT * FROM Students_207 WHERE (First_name = 'Arkadiy')
+

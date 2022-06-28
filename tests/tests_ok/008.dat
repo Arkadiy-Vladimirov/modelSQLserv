@@ -1,0 +1,2 @@
+SELECT First_name, Surname FROM Students_207 WHERE KR2 NOT IN (0)
+
